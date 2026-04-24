@@ -1,0 +1,44 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="20" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081120"/>
+      <stop offset="0.55" stop-color="#111936"/>
+      <stop offset="1" stop-color="#180E2F"/>
+    </linearGradient>
+    <linearGradient id="strokeGlow" x1="50" y1="44" x2="206" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9BF7FF"/>
+      <stop offset="0.5" stop-color="#53E5FF"/>
+      <stop offset="1" stop-color="#B25CFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="78" y1="178" x2="178" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9C6BFF"/>
+      <stop offset="1" stop-color="#47DFFF"/>
+    </linearGradient>
+    <filter id="outerGlow" x="10" y="10" width="236" height="236" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="14" result="effect1_foregroundBlur"/>
+    </filter>
+    <filter id="textGlow" x="38" y="42" width="180" height="104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+
+  <rect x="12" y="12" width="232" height="232" rx="56" fill="url(#bg)"/>
+
+  <g filter="url(#outerGlow)" opacity="0.9">
+    <path d="M52 72C66 60 91 48 128 48C165 48 190 60 204 72" stroke="url(#strokeGlow)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M44 176C72 202 109 216 128 216C147 216 184 202 212 176" stroke="url(#strokeGlow)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M34 128H222" stroke="url(#strokeGlow)" stroke-width="5" stroke-linecap="round" opacity="0.24"/>
+  </g>
+
+  <g filter="url(#textGlow)">
+    <text x="128" y="122" text-anchor="middle" fill="none" stroke="url(#strokeGlow)" stroke-width="4" font-size="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="4">
+      SVB
+    </text>
+  </g>
+
+  <path d="M92 174L144 128L126 170L168 178L110 194L120 176L92 174Z" fill="url(#accent)"/>
+</svg>
