@@ -41,7 +41,7 @@ export default function ChatBotServicePage() {
           <span className="text-sm font-medium uppercase tracking-[0.2em] text-primary/80">
             Страница услуги
           </span>
-          <h1 className="mt-4 text-4xl font-semibold text-foreground md:text-5xl">
+          <h1 className="text-gradient-heading-light mt-4 text-4xl font-semibold md:text-5xl">
             Чат-бот для бизнеса, который помогает собирать заявки и экономить
             время команды
           </h1>
@@ -55,14 +55,14 @@ export default function ChatBotServicePage() {
             {BENEFITS.map((benefit) => (
               <article
                 key={benefit}
-                className="rounded-[28px] border border-border bg-surface p-6"
+                className="rounded-[28px] border-2 border-border bg-surface p-6"
               >
                 <h2 className="text-xl font-semibold text-foreground">{benefit}</h2>
               </article>
             ))}
           </div>
 
-          <div className="mt-10 rounded-[30px] border border-primary/15 bg-primary/8 p-8">
+          <div className="mt-10 rounded-[30px] border-2 border-primary/15 bg-primary/8 p-8">
             <h2 className="text-2xl font-semibold text-foreground">
               Когда это особенно полезно
             </h2>

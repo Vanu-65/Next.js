@@ -46,10 +46,10 @@ export default function ServicesPage() {
     <main className="min-h-screen bg-background px-6 py-20 text-foreground md:px-10">
       <div className="mx-auto max-w-5xl">
         <AnimatedReveal className="max-w-4xl space-y-5">
-          <span className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm font-medium uppercase tracking-[0.2em] text-primary">
+          <span className="inline-flex rounded-full border-2 border-primary/20 bg-primary/10 px-4 py-2 text-sm font-medium uppercase tracking-[0.2em] text-primary">
             Услуги SVB
           </span>
-          <h1 className="text-4xl font-semibold tracking-tight text-foreground md:text-6xl md:leading-[1.05]">
+          <h1 className="text-gradient-heading-light text-4xl font-semibold tracking-tight md:text-6xl md:leading-[1.05]">
             {SITE_NAME}: решения для привлечения клиентов, сохранения заявок и
             роста продаж
           </h1>
@@ -76,14 +76,14 @@ export default function ServicesPage() {
           </div>
         </AnimatedReveal>
 
-        <AnimatedReveal className="mt-12 grid gap-4 rounded-[28px] border border-border bg-surface p-6 text-sm text-text-soft md:grid-cols-3">
-          <div className="rounded-2xl border border-border bg-surface-muted px-4 py-4">
+        <AnimatedReveal className="mt-12 grid gap-4 rounded-[28px] border-2 border-border bg-surface p-6 text-sm text-text-soft md:grid-cols-3">
+          <div className="rounded-2xl border-2 border-border bg-surface-muted px-4 py-4">
             Понятный путь от первого касания до заявки
           </div>
-          <div className="rounded-2xl border border-border bg-surface-muted px-4 py-4">
+          <div className="rounded-2xl border-2 border-border bg-surface-muted px-4 py-4">
             Один канал связи без потери обращений
           </div>
-          <div className="rounded-2xl border border-border bg-surface-muted px-4 py-4">
+          <div className="rounded-2xl border-2 border-border bg-surface-muted px-4 py-4">
             Решение под задачу, а не набор лишних услуг
           </div>
         </AnimatedReveal>
@@ -91,7 +91,7 @@ export default function ServicesPage() {
         <div className="mt-12 grid gap-6">
           {SERVICES.map((service, index) => (
             <AnimatedReveal key={service.title} delay={0.08 * (index + 1)}>
-              <article className="rounded-[30px] border border-border bg-surface p-8 transition duration-300 hover:-translate-y-1 hover:border-primary/25 hover:bg-background hover:shadow-[0_20px_50px_rgba(37,99,235,0.10)]">
+              <article className="rounded-[30px] border-2 border-border bg-surface p-8 transition duration-300 hover:-translate-y-1 hover:border-primary/40 hover:bg-background hover:shadow-[0_20px_50px_rgba(45,91,255,0.18)]">
                 <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
                   <div className="max-w-3xl">
                     <h2 className="text-2xl font-semibold tracking-tight text-foreground md:text-3xl">
@@ -120,7 +120,7 @@ export default function ServicesPage() {
           ))}
         </div>
 
-        <AnimatedReveal className="mt-12 rounded-[32px] border border-primary/15 bg-primary/8 p-8 md:p-10">
+        <AnimatedReveal className="mt-12 rounded-[32px] border-2 border-primary/15 bg-primary/8 p-8 md:p-10">
           <div className="max-w-3xl space-y-4">
             <span className="text-sm font-medium uppercase tracking-[0.2em] text-primary">
               Следующий шаг

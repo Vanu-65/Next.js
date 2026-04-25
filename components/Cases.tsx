@@ -23,7 +23,7 @@ const CASES = [
 
 export function Cases() {
   return (
-    <section className="border-y border-slate-800 bg-slate-900/60 px-6 py-20 md:px-10">
+    <section className="border-y-2 border-slate-800 bg-slate-900/60 px-6 py-20 md:px-10">
       <div className="mx-auto max-w-6xl">
         <div className="max-w-3xl space-y-4">
           <span className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-200/80">
@@ -42,9 +42,9 @@ export function Cases() {
           {CASES.map((item) => (
             <article
               key={item.title}
-              className="rounded-[30px] border border-slate-800 bg-slate-950 p-6"
+              className="rounded-[30px] border-2 border-slate-800 bg-slate-950 p-6"
             >
-              <div className="rounded-[24px] border border-slate-800 bg-slate-900 p-5">
+              <div className="rounded-[24px] border-2 border-slate-800 bg-slate-900 p-5">
                 <Image
                   src={item.imageSrc}
                   alt={item.imageAlt}

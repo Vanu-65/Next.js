@@ -8,17 +8,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#2563EB",
-        "primary-dark": "#1D4ED8",
-        accent: "#F97316",
+        primary: "#2D5BFF",
+        "primary-dark": "#1A3FCC",
+        accent: "#FF6B26",
+        "accent-strong": "#E85010",
 
         bg: "#FFFFFF",
-        "bg-soft": "#F8FAFC",
+        "bg-soft": "#EEF2FF",
 
-        text: "#0F172A",
-        "text-secondary": "#64748B",
+        text: "#0B1220",
+        "text-secondary": "#475569",
 
-        border: "#E2E8F0",
+        border: "#C7D2FE",
       },
 
       borderRadius: {
@@ -27,7 +28,8 @@ const config: Config = {
       },
 
       boxShadow: {
-        soft: "0 10px 30px rgba(0,0,0,0.05)",
+        soft: "0 10px 32px rgba(45, 91, 255, 0.08)",
+        glow: "0 8px 28px rgba(45, 91, 255, 0.2)",
       },
 
       fontFamily: {

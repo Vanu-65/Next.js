@@ -51,11 +51,11 @@ export function Process() {
                 className="relative pl-16 md:pl-24"
                 delay={0.08 * (index + 1)}
               >
-                <div className="absolute left-0 top-0 inline-flex h-10 w-10 items-center justify-center rounded-full border border-primary/25 bg-surface text-sm font-semibold text-primary shadow-[0_0_22px_rgba(37,99,235,0.12)] md:h-16 md:w-16 md:text-base">
+                <div className="absolute left-0 top-0 inline-flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary/35 bg-surface text-sm font-semibold text-primary shadow-[0_0_24px_rgba(45,91,255,0.28)] md:h-16 md:w-16 md:text-base">
                   {item.step}
                 </div>
 
-                <div className="rounded-[28px] border border-border bg-surface p-6 transition duration-300 hover:-translate-y-0.5 hover:border-primary/25 hover:bg-background hover:shadow-[0_20px_50px_rgba(37,99,235,0.10)]">
+                <div className="rounded-[28px] border-2 border-border bg-surface p-6 transition duration-300 hover:-translate-y-0.5 hover:border-primary/40 hover:bg-background hover:shadow-[0_20px_50px_rgba(45,91,255,0.18)]">
                   <h3 className="text-2xl font-semibold tracking-tight text-foreground">
                     {item.title}
                   </h3>

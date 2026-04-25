@@ -57,7 +57,7 @@ export function Solution() {
               delay={0.08 * (index + 1)}
             >
               <Card className="group h-full">
-                <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-primary/20 bg-primary/10 text-primary transition duration-300 group-hover:border-primary/35 group-hover:bg-primary/12">
+                <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-2xl border-2 border-primary/20 bg-primary/10 text-primary transition duration-300 group-hover:border-primary/35 group-hover:bg-primary/12">
                   <service.icon size={22} strokeWidth={1.8} />
                 </div>
                 <h3 className="text-2xl font-semibold tracking-tight text-foreground">
@@ -68,7 +68,7 @@ export function Solution() {
                 </p>
                 <Link
                   href={service.href}
-                  className="mt-6 inline-flex rounded-full border border-primary/20 bg-surface-muted px-5 py-3 font-medium text-primary transition duration-300 hover:-translate-y-0.5 hover:border-primary/35 hover:bg-primary/8"
+                  className="mt-6 inline-flex rounded-full border-2 border-primary/20 bg-surface-muted px-5 py-3 font-medium text-primary transition duration-300 hover:-translate-y-0.5 hover:border-primary/35 hover:bg-primary/8"
                 >
                   Посмотреть решение
                 </Link>

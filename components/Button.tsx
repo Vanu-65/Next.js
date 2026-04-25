@@ -39,11 +39,11 @@ export default function Button(props: ButtonProps) {
 
   const styles = {
     primary:
-      "bg-primary text-white hover:scale-105 hover:bg-primary-dark",
+      "bg-gradient-to-br from-primary to-primary-dark text-white shadow-glow hover:scale-105 hover:brightness-110",
     accent:
-      "bg-accent text-white hover:scale-105 hover:bg-accent-strong",
+      "bg-gradient-to-br from-accent to-accent-strong text-white shadow-[0_6px_20px_rgba(255,107,38,0.45)] hover:scale-105 hover:brightness-105",
     ghost:
-      "border border-border bg-bg text-text hover:bg-bg-soft",
+      "border-[3px] border-primary/30 bg-bg text-text hover:border-primary/50 hover:bg-bg-soft",
   };
 
   const mergedClassName = `${base} ${styles[variant]} ${className}`.trim();

@@ -50,7 +50,7 @@ export function Problem() {
           <span className="text-sm font-medium uppercase tracking-[0.2em] text-primary/80">
             Проблемы
           </span>
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-text md:text-4xl">
+          <h2 className="text-gradient-heading-light mt-4 text-3xl font-bold tracking-tight md:text-4xl">
             Основные проблемы бизнеса
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-base leading-8 text-text-secondary md:text-lg">
@@ -66,7 +66,7 @@ export function Problem() {
               delay={0.08 * (index + 1)}
             >
               <Card className="group h-full">
-                <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-accent/20 bg-accent/10 text-accent transition duration-300 group-hover:border-accent/35 group-hover:bg-accent/12">
+                <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl border-2 border-accent/20 bg-accent/10 text-accent transition duration-300 group-hover:border-accent/35 group-hover:bg-accent/12">
                   <card.icon size={22} strokeWidth={1.8} />
                 </div>
                 <h3 className="text-xl font-semibold tracking-tight text-text">

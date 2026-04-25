@@ -4,7 +4,7 @@ import Container from "@/components/Container";
 import SectionIntro from "@/components/SectionIntro";
 
 const FIELD_CLASS =
-  "w-full rounded-xl border border-border bg-bg px-4 py-3 text-text outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/10";
+  "w-full rounded-xl border-2 border-border bg-bg px-4 py-3 text-text outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/10";
 
 export default function LeadForm() {
   return (

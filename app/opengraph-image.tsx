@@ -21,7 +21,7 @@ export default function Image() {
           position: "relative",
           overflow: "hidden",
           background:
-            "linear-gradient(135deg, #081120 0%, #111936 55%, #180E2F 100%)",
+            "linear-gradient(135deg, #0b1220 0%, #152238 45%, #1a3fcc 100%)",
           color: "#F8FAFC",
           fontFamily: "Arial",
         }}
@@ -32,7 +32,7 @@ export default function Image() {
             inset: 0,
             display: "flex",
             background:
-              "radial-gradient(circle at 18% 22%, rgba(83, 229, 255, 0.18), transparent 22%), radial-gradient(circle at 82% 18%, rgba(178, 92, 255, 0.20), transparent 24%), radial-gradient(circle at 52% 78%, rgba(83, 229, 255, 0.08), transparent 28%)",
+              "radial-gradient(circle at 18% 22%, rgba(45, 91, 255, 0.35), transparent 28%), radial-gradient(circle at 82% 18%, rgba(255, 107, 38, 0.28), transparent 26%), radial-gradient(circle at 52% 78%, rgba(45, 91, 255, 0.12), transparent 32%)",
           }}
         />
 

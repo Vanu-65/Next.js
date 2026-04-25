@@ -7,7 +7,7 @@ import {
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-surface/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b-2 border-border bg-surface/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-4 md:px-10">
         <Link href="/" className="min-w-0">
           <div className="text-lg font-semibold text-foreground">{SITE_NAME}</div>

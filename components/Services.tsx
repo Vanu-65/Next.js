@@ -33,7 +33,7 @@ const SERVICE_ITEMS = [
 
 export function Services() {
   return (
-    <section className="border-y border-border bg-surface-muted px-6 py-20 md:px-10">
+    <section className="border-y-2 border-border bg-surface-muted px-6 py-20 md:px-10">
       <div className="mx-auto max-w-6xl">
         <AnimatedReveal className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <SectionIntro
@@ -60,7 +60,7 @@ export function Services() {
               delay={0.08 * (index + 1)}
             >
               <Card className="group h-full">
-                <div className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-semibold text-primary">
+                <div className="inline-flex rounded-full border-2 border-primary/20 bg-primary/10 px-3 py-1 text-sm font-semibold text-primary">
                   {item.badge}
                 </div>
                 <h3 className="mt-5 text-2xl font-semibold tracking-tight text-foreground">

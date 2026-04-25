@@ -10,20 +10,23 @@ import {
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-bg/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b-2 border-white/20 bg-gradient-to-r from-[#1e2f78] via-[#3a54b0] to-[#4a62c4] shadow-[0_8px_32px_rgba(55,72,145,0.34)] backdrop-blur-md">
       <Container className="flex items-center justify-between gap-6 py-4">
         <Link href="/" className="min-w-0">
-          <div className="text-lg font-bold tracking-tight text-text">
+          <div className="bg-gradient-to-r from-white via-[#c7d7ff] to-[#ffb088] bg-clip-text text-lg font-bold tracking-tight text-transparent">
             {SITE_NAME}
           </div>
-          <p className="text-sm text-text-secondary">{SITE_TAGLINE}</p>
+          <p className="text-sm text-white/80">{SITE_TAGLINE}</p>
         </Link>
 
         <nav className="hidden md:block" aria-label="Основная навигация">
-          <ul className="flex items-center gap-6 text-sm font-medium text-text-secondary">
+          <ul className="flex items-center gap-6 text-sm font-medium text-white/90">
             {NAVIGATION_ITEMS.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="transition hover:text-primary">
+                <Link
+                  href={item.href}
+                  className="transition hover:text-[#ffb088]"
+                >
                   {item.label}
                 </Link>
               </li>

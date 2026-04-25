@@ -10,11 +10,13 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border bg-text text-white">
+    <footer className="border-t-2 border-primary/30 bg-gradient-to-br from-text via-[#141b36] to-[#1e1b4b] text-white">
       <Container className="grid gap-10 py-12 md:grid-cols-[1.2fr_0.8fr_0.8fr]">
         <div className="space-y-4">
           <div>
-            <p className="text-xl font-bold tracking-tight">{SITE_NAME}</p>
+            <p className="bg-gradient-to-r from-white via-[#a8c4ff] to-[#ffb088] bg-clip-text text-xl font-bold tracking-tight text-transparent">
+              {SITE_NAME}
+            </p>
             <p className="mt-1 text-sm text-gray-300">{SITE_TAGLINE}</p>
           </div>
           <p className="max-w-md text-sm leading-7 text-gray-300">

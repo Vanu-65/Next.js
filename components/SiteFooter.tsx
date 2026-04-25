@@ -7,7 +7,7 @@ import {
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-border bg-surface">
+    <footer className="border-t-2 border-border bg-surface">
       <div className="mx-auto grid max-w-6xl gap-8 px-6 py-10 md:grid-cols-[1fr_auto] md:px-10">
         <div className="space-y-2">
           <p className="text-lg font-semibold text-foreground">{SITE_NAME}</p>

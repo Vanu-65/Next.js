@@ -46,7 +46,7 @@ export default function PricingCards() {
           {PLANS.map((plan) => (
             <Card
               key={plan.name}
-              className={plan.highlighted ? "border-primary shadow-lg" : ""}
+              className={plan.highlighted ? "border-2 border-primary shadow-lg" : ""}
             >
               <div className="flex h-full flex-col">
                 <div>

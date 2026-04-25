@@ -29,7 +29,7 @@ export default function BlogPage() {
           <span className="text-sm font-medium uppercase tracking-[0.2em] text-primary/80">
             Блог
           </span>
-          <h1 className="text-4xl font-semibold text-foreground md:text-5xl">
+          <h1 className="text-gradient-heading-light text-4xl font-semibold md:text-5xl">
             {SITE_NAME}: полезные материалы для роста малого бизнеса
           </h1>
           <p className="text-lg leading-8 text-text-soft">
@@ -42,7 +42,7 @@ export default function BlogPage() {
           {ARTICLES.map((article) => (
             <article
               key={article.href}
-              className="rounded-[30px] border border-border bg-surface p-8"
+              className="rounded-[30px] border-2 border-border bg-surface p-8"
             >
               <h2 className="text-2xl font-semibold text-foreground">
                 {article.title}

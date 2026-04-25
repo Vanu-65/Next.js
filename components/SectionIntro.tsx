@@ -18,7 +18,7 @@ export default function SectionIntro({
       <span className="text-sm font-medium uppercase tracking-[0.2em] text-primary/80">
         {eyebrow}
       </span>
-      <h2 className="text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
+      <h2 className="text-gradient-heading-light text-3xl font-semibold tracking-tight md:text-4xl">
         {title}
       </h2>
       <p className="max-w-2xl text-base leading-8 text-text-soft md:text-lg">

@@ -27,7 +27,7 @@ const TRUST_ITEMS = [
 export function Trust() {
   return (
     <section className="px-6 py-6 md:px-10 md:py-8">
-      <div className="mx-auto max-w-6xl rounded-[32px] border border-border bg-surface p-6 md:p-8">
+      <div className="mx-auto max-w-6xl rounded-[32px] border-2 border-border bg-surface p-6 md:p-8">
         <SectionIntro
           eyebrow="Доверие"
           title="Почему с такой системой проще доверить рост бизнеса"
@@ -39,7 +39,7 @@ export function Trust() {
           {TRUST_ITEMS.map((item, index) => (
             <AnimatedReveal key={item.title} delay={0.08 * (index + 1)}>
               <Card className="h-full bg-surface-muted p-5">
-                <div className="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-primary/20 bg-primary/10 text-primary">
+                <div className="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-2xl border-2 border-primary/20 bg-primary/10 text-primary">
                   <item.icon size={20} strokeWidth={1.9} />
                 </div>
                 <h3 className="text-lg font-semibold tracking-tight text-foreground">
